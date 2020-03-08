@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">BarberBooker</string>
+    <string name="title_activity_inside_salon">Map</string>
 </resources>

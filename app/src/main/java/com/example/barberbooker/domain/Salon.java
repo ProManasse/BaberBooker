@@ -6,6 +6,7 @@ public class Salon {
     private Double latitude;
     private Double longitude;
     private String salon_status;
+    private String salon_loc;
 
 	public Integer getSalon_id() {
 		return salon_id;
@@ -36,5 +37,13 @@ public class Salon {
 	}
 	public void setSalon_status(String salon_status) {
 		this.salon_status = salon_status;
+	}
+
+	public String getSalon_loc() {
+		return salon_loc;
+	}
+
+	public void setSalon_loc(String salon_loc) {
+		this.salon_loc = salon_loc;
 	}
 }
